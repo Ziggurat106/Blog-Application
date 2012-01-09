@@ -1,14 +1,17 @@
 class PagesController < ApplicationController
   def home
-    @title = "Home"
+    @title = "home"
+    @base_title = "abusesay.com : personal blog + portfolio"
   end
 
   def contact
-    @title = "Contact"
+    @title = "contact"
+    @base_title = "abusesay.com : personal blog + portfolio"
   end
 
   def about
-    @title = "About"
+    @title = "about"
+    @base_title = "abusesay.com : personal blog + portfolio"
   end
 
 
