@@ -17,8 +17,8 @@ group :test do
   gem 'webrat', '0.7.1' 
   gem 'ZenTest'
   gem 'spork', '0.9.0.rc8'
-  gem 'autotest', '4.4.6'
-  gem 'autotest-rails-pure', '4.1.2'
+  #gem 'autotest', '4.4.6'
+  #gem 'autotest-rails-pure', '4.1.2'
 end
 
 # Use unicorn as the web server
